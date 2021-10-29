@@ -3,8 +3,8 @@ class Game():
        self.player_1 = player_1
        self.player_2 = player_2
 
-    def determin_winner (self,player_1,player_2):
-        if player_1.choice == "rock" and player_2.choice == "paper":
+    def determin_winner (self,player_1, player_2):
+        if self.player_1.choice == "rock" and self.player_2.choice == "paper":
            return "player 2 wins"
 
         if player_1.choice == "rock" and player_2.choice == "scissors" :
